@@ -47,7 +47,7 @@ const Sidebar: React.FC<SidebarProps> = ({ isOpen, onClose, user }) => {
             <span className="material-icons text-white">precision_manufacturing</span>
           </div>
           <div>
-            <h1 className="font-bold text-lg">SmartFactory</h1>
+            <h1 className="font-bold text-lg">Factora</h1>
             <p className="text-xs text-text-secondary">Manufacturing Dashboard</p>
           </div>
         </div>
@@ -81,7 +81,7 @@ const Sidebar: React.FC<SidebarProps> = ({ isOpen, onClose, user }) => {
                   className={cn(
                     "flex items-center px-3 py-2 rounded-md transition-colors",
                     isActive(item.path) 
-                      ? "bg-primary-light text-white" 
+                      ? "bg-secondery-light text-black" 
                       : "text-text-primary hover:bg-background"
                   )}
                 >
@@ -102,7 +102,7 @@ const Sidebar: React.FC<SidebarProps> = ({ isOpen, onClose, user }) => {
                   className={cn(
                     "flex items-center px-3 py-2 rounded-md transition-colors",
                     isActive(item.path) 
-                      ? "bg-primary-light text-white" 
+                      ? "bg-secondery-light text-black" 
                       : "text-text-primary hover:bg-background"
                   )}
                 >

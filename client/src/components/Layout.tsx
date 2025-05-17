@@ -64,7 +64,7 @@ const Layout: React.FC<LayoutProps> = ({
           <div className="container mx-auto py-4 px-4">
             <div className="flex flex-col md:flex-row md:items-center md:justify-between">
               <div className="text-text-secondary text-sm mb-2 md:mb-0">
-                © {new Date().getFullYear()} SmartFactory | Manufacturing Dashboard v1.2.0
+                © {new Date().getFullYear()} Factora | Manufacturing Dashboard v1.2.0
               </div>
               <div className="flex items-center space-x-4">
                 <a href="#" className="text-text-secondary text-sm hover:text-primary">Help Center</a>
